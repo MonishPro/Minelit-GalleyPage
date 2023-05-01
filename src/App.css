@@ -42,6 +42,7 @@ body{
   padding: 2%;
   margin: 0;
   font-size: 20px;
+  width: 90%;
 }
 .card-link{
   text-decoration: none;
@@ -57,9 +58,24 @@ body{
 @media screen and (max-width:426px){
   .card{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
   .inner{
     display: flex;
     justify-content: center;
+  }
+  .card-body{
+    width: 100%;
+  }
+  .card-img-top{
+    width: 100%;
+  }
+}
+@media screen and (max-width:337px){
+  .inner{
+    overflow: hidden;
   }
 }

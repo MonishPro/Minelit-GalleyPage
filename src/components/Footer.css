@@ -124,6 +124,9 @@
     width: 45%;
     font-size: 16px;
   }
+  .card-title{
+    width: 100%;
+  }
   h5{
     font-size: 15px;
   }
@@ -146,8 +149,18 @@
     font-size: 21px;
   }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:337px){
   .email{
     width: 55%;
+  }
+  .copyright{
+    width: 42%;
+    padding-top: 5%;
+  }
+  .footer-end{
+    width: 92%;
+  }
+  .social{
+    width: 32%;
   }
 }
