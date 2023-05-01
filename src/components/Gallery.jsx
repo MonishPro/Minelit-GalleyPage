@@ -10,7 +10,7 @@ const Gallery = () => {
                     <div className="banner-img">
                         <div className="banner-text">
                             <h2>Open The Door<br /> To The Collection</h2>
-                            <a href="#">March To OpenSea</a>
+                            <a href="https://opensea.io/" target="blank">March To OpenSea</a>
                         </div>
                     </div>
                 </div>
