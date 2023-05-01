@@ -15,7 +15,7 @@ const Gallery = () => {
                     </div>
                 </div>
                 <div className="search-id">
-                <i class="fa-solid fa-bars"></i>
+                <i class="menu fa-solid fa-bars"></i>
                     <div class="wrap">
                         <div class="search">
                             <button type="submit" class="searchButton">

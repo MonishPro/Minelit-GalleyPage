@@ -4,6 +4,9 @@
     width: 98vw;
     flex-direction: column;
 }
+.menu{
+    display: none !important;
+}
 .banner{
     margin: 0;
     width: 100%;
