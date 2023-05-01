@@ -149,7 +149,7 @@
     font-size: 21px;
   }
 }
-@media screen and (max-width:337px){
+@media screen and (max-width:376px){
   .email{
     width: 55%;
   }
@@ -162,5 +162,10 @@
   }
   .social{
     width: 32%;
+  }
+}
+@media screen and (max-width:376px){
+  .email{
+    width: 50%;
   }
 }
