@@ -48,7 +48,7 @@
   text-align: center;
   font-weight: 600;
   background-color: #dedede;
-  font-weight: bold;
+  font-weight: 500;
 }
 .example-title {
   margin: 0;
@@ -70,7 +70,7 @@
   width: 70%;
   text-align: center;
   font-weight: 500;
-  font-weight: bold;
+  font-weight: 500;
 }
 input[type="checkbox"] {
   width: 18px;
@@ -81,4 +81,39 @@ input[type="checkbox"] {
 }
 .container-card{
     width: 100%;
+}
+@media screen and (max-width:1024px){
+  .whole{
+    padding: 0 3% 0 3%;
+  }
+}
+@media screen and (max-width:768px){
+  .left{
+    width: 20%;
+  }
+  .category{
+    width: 130px;
+    height: 30px;
+  }
+  .category-title{
+    height: 30px;
+  }
+  .category-icon{
+    width: 20px;
+    height: 20px;
+  }
+  .whole{
+    padding: 0 3% 0 3%;
+  }
+}
+@media screen and (max-width:426px){
+  .left{
+    display: none;
+  }
+  .right{
+    width: 100%;
+    border-left: 0px;
+    margin-top: 10%;
+    padding-left: 0%;
+  }
 }

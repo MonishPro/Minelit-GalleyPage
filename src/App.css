@@ -19,7 +19,6 @@ body{
   background-color: transparent;
   color: var(--white);
   border-radius: 8px;
-  width: 271px;
 }
 .inner{
   overflow: hidden;
@@ -49,4 +48,18 @@ body{
   color: var(--dark);
   margin: 0;
   padding: 0;
+}
+@media screen and (max-width:768px) {
+  .card{
+    width: 220px;
+  }
+}
+@media screen and (max-width:426px){
+  .card{
+    width: 100%;
+  }
+  .inner{
+    display: flex;
+    justify-content: center;
+  }
 }
