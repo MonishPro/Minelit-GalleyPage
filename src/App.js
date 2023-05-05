@@ -2,14 +2,15 @@ import './App.css';
 import Gallery from './components/Gallery';
 import Main from './components/Main';
 import Footer from './components/Footer';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <>
+      <Nav/>
       <Gallery />
       <Main/>
       <Footer/>
-      
     </>
   );
 }

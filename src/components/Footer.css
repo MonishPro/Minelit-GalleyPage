@@ -56,18 +56,19 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.fa-brands{
+.brands-link{
   cursor: pointer;
   font-size: 26px;
   transition: all 0.5s;
 }
-.fa-brands:hover{
+.brands-link:hover{
   color: #643197;
 
 }
 .footer-container{
   height: 90px;
-  width: 98.6vw;
+  /* width: 98.6vw; */
+  width: 100%;
   margin-top: 4%;
   background-color: #643197;
   display: flex;
@@ -150,9 +151,6 @@
   }
 }
 @media screen and (max-width:376px){
-  .email{
-    width: 55%;
-  }
   .copyright{
     width: 42%;
     padding-top: 5%;
@@ -163,8 +161,6 @@
   .social{
     width: 32%;
   }
-}
-@media screen and (max-width:376px){
   .email{
     width: 50%;
   }
