@@ -1,0 +1,144 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #090909;
+}
+
+
+.megacontainer2{
+    position: relative;
+    top:20px;
+}
+.whiteline{
+    border-radius: 8px;
+    height: 5px;
+    width: 55%;
+    text-align: end;
+    /* padding-left: 250px; */
+    background-color: white;
+    position: relative;
+    top: 194px;
+    left: 300px;
+}
+
+.container2{
+    /* justify-content: end; */
+    width: 100%;
+    height: 150px;
+    font-weight: 400;
+    position: relative;
+    top: 220px;
+}
+
+#squirrelnft{
+    align-items: start;
+    font-size: 27px;
+    text-align: left;
+    position: relative;
+    bottom: 30px;
+} 
+
+#emailaddress{
+    height: 70px;
+    font-size: 20px;
+}
+
+.contain .knock{
+    font-weight: lighter;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.contain .knock .push{
+    font-weight: lighter;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+#text{
+    font-size: 131.25%;
+}
+
+/* .mail{
+    width: 35px;
+} */
+
+
+.instagram{
+    position: relative;
+    left: 235px;
+    bottom: 44px;
+} 
+
+ .twitter{
+    position: relative;
+    left: 270px;
+    bottom: 34px;
+}
+
+.discord{
+    position: relative;
+    left: 300px;
+    bottom: 26px;
+}
+
+@media screen and (max-width:500px){
+    html{
+        font-size: 100.25%;
+    }
+
+    .whiteline{
+        width: 0px;
+    }
+
+    .container2{
+        grid-template-columns: 150px 30px 35px 35px 35px;
+    }
+
+    /* .mail{
+        width: 25px;
+        height: 20px;
+    } */
+
+    .instagram{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: -83px;
+        top: -74px;
+    }
+
+    .twitter{
+        width: 46px;
+        height: 50px;
+        position: relative;
+        left: -41px;
+        top: -120px;
+    }
+
+    .discord{
+        width: 50px;
+        height: 63px;
+        position: relative;
+        left: 4px;
+        top: -180px;
+    }
+
+    #squirrelnft{
+        font-size: 131.75%;
+    }
+
+    #emailaddress{
+        font-size: 81.25%;
+        position: relative;
+        bottom: 13%;
+    }
+
+    #text{
+    font-size: 106.25%;
+    position: relative;
+    bottom: 46px;
+    }
+
+}

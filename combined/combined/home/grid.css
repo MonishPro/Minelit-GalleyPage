@@ -1,0 +1,423 @@
+*{
+font-family: 'Poppins', sans-serif;
+color: white;
+}
+
+body{
+    background-color: #090909;
+}
+
+
+.firstimage{
+    margin: auto;
+    width:1450px;
+    height: 320px;
+    padding-top: 50px;
+    position: relative;
+    bottom: 100px;
+    right: 7px;
+}
+
+
+.megacontainer{
+    position: relative;
+    top:300px;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 140px; */
+    grid-template-columns: 285px 375px 285px;
+    column-gap: 40px;
+    row-gap: 10px;
+    width: auto;
+}
+
+.container .gridimg1{
+    width:100%;
+    height:95%;
+}
+
+.container .gridimg3{
+    width:100%;
+    height:95%;
+}
+
+.box2{
+    /* border: 2px solid; */
+    position: relative;
+    bottom: 15px;
+}
+
+.box2 .gridimg2{
+    position: relative;
+    /* left: 40px; */
+    width:95%;
+    height:110%;
+}
+
+.textbold{
+    font-size: 31px;
+    font-weight: 500;
+    position: relative; 
+    top:40px;
+    text-align: center;
+}
+
+.content{
+    font-size: 27px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    top: 100px;    
+}
+
+.buttonrow{
+    text-align: center;
+    position: relative;
+    /* left: 525px; */
+    top: 125px;
+}
+
+input[type="button"]{
+    text-align: center;
+    width: 40%; 
+    height: 78px;
+    font-weight: 600;
+    font-size: 23px;
+    background: white;
+    border-radius: 5%;
+    color: #090909;
+}
+
+
+
+
+
+
+.contain .knock{
+    font-weight: lighter;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.contain .knock .push{
+    font-weight: lighter;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+
+.megacontainer2{
+    /* text-align: center; */
+    position: relative;
+    top:20px;
+}
+.whiteline{
+    border-radius: 8px;
+    height: 5px;
+    width: 55%;
+    text-align: end;
+    /* padding-left: 250px; */
+    background-color: white;
+    position: relative;
+    top: 194px;
+    left: 300px;
+}
+
+.container2{
+    /* justify-content: end; */
+    width: 100%;
+    height: 150px;
+    font-weight: 400;
+    position: relative;
+    top: 220px;
+}
+
+#squirrelnft{
+    align-items: start;
+    font-size: 27px;
+    text-align: left;
+    position: relative;
+    bottom: 30px;
+} 
+
+#emailaddress{
+    height: 70px;
+    font-size: 20px;
+}
+
+.contain .knock{
+    font-weight: lighter;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.contain .knock .push{
+    font-weight: lighter;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+#text{
+    font-size: 131.25%;
+}
+
+/* .mail{
+    width: 35px;
+} */
+
+
+.instagram{
+    position: relative;
+    left: 235px;
+    bottom: 44px;
+} 
+
+ .twitter{
+    position: relative;
+    left: 270px;
+    bottom: 34px;
+}
+
+.discord{
+    position: relative;
+    left: 300px;
+    bottom: 26px;
+}
+
+@media screen and (max-width:500px){
+    html{
+        font-size: 100.25%;
+    }
+
+    .whiteline{
+        width: 0px;
+    }
+
+    .container2{
+        grid-template-columns: 150px 30px 35px 35px 35px;
+    }
+
+    /* .mail{
+        width: 25px;
+        height: 20px;
+    } */
+
+    .instagram{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        left: -86px;
+        top: -75px;
+    }
+
+        .twitter {
+        width: 46px;
+        height: 50px;
+        position: relative;
+        left: -41px;
+        top: -124px;
+    }
+
+    .discord{
+        width: 52px;
+        height: 60px;
+        position: relative;
+        left: 4px;
+        top: -181px;
+    }
+
+    #squirrelnft{
+        font-size: 131.75%;
+    }
+
+    #emailaddress{
+        font-size: 81.25%;
+        position: relative;
+        bottom: 13%;
+    }
+
+    #text{
+    font-size: 106.25%;
+    position: relative;
+    bottom: 46px;
+    }
+
+}
+
+
+
+.contact{
+    border-radius: 8px;
+    height: 6px;
+    width: 98%;
+    background-color: #3c3b3d;
+    position: relative;
+    bottom:40px
+  }
+
+.container0 {
+    border-radius: 8px;
+    height: 6px;
+    width: 98%;
+    background-color: #3c3b3d;
+    position: relative;
+    top: 150px;
+  }
+
+
+
+  .door100{
+    height:280px;
+    position: absolute;
+    right:25px;
+    bottom:100px
+  }
+
+  .door100img{
+    width: 101.5%;
+    height:220px;
+  }
+
+
+  .container3{
+    /* border: 2px solid; */
+    grid-column-start: 1;
+    grid-column-end: 6;
+    justify-self: center;
+    height: 100px;
+    width: 101.5%;
+    font-size: 15px;
+    background-color: #643197;
+    position: relative;
+    top: 274px;
+    right: 8px;
+  }
+
+  .heading{
+    position: relative;
+    top: 100px;
+  }
+    
+  .ends{
+    font-weight: 300;
+    text-align: right;
+    position: relative;
+    right:60px;
+    bottom: 30px;
+  }
+
+
+  @media screen and (max-width:500px){
+    html{
+        font-size: 100.25%;
+    }
+    /* .container{
+    grid-template-columns: 285px 375px 285px;
+    column-gap: 60px;
+    } */
+    
+    .images{
+        position: relative;
+        right: 7px;
+    }
+
+    .gridimg3{
+        display: none;
+    }
+    
+    .container2{
+        grid-template-columns: 150px 30px 35px 35px 35px;
+    }
+
+    .content{
+        font-size: 92%;
+        width: 62%;
+        height: 245px;
+        font-weight: 300;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        right: -14%;
+    }
+
+    input[type="button"]{
+        font-size: 106.25%;
+        align-self: center;
+        height: 37px;
+        position: relative;
+        right: 5%;
+    }
+    .megacontainer{
+        position: relative;
+        top: 0px;
+    }
+
+    .box2{
+        width: 90%;
+    }
+
+    .box2 .gridimg2{
+        /* border: 2px solid; */
+        position: relative;
+        left: 55px;
+        width:75%;
+        height:100%;
+    }
+
+    .firstimage{
+        position: relative;
+        top: 100px;
+        right: 1.1%;
+    }
+
+    .door100{
+        height: 100px;
+        position: relative;
+        right: -64.9%;
+        bottom: 107px;
+    }
+
+    .door100img{
+        width: 106%;
+        height: 100px;
+    }
+
+    .container3{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        width: 106%;
+        /* position: relative;
+        right: 0px; */
+    }
+
+    .ends{
+        position: relative;
+        font-size: 90%;
+        right: 20%;
+    }
+
+  }
+
+  @media screen and (max-width:1800px){
+    .firstimage{
+        margin:auto;
+        width: 100%;
+        
+    }
+
+    input[type="button"]{
+        width: 200px;
+    }
+
+    
+  }
+
+  @media screen and (min-width:1800px){
+    input[type="button"]{
+        width: 200px;
+    }
+  }
+
+  
