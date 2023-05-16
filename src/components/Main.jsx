@@ -1,5 +1,5 @@
 import React from "react";
-import './Main.css';
+import './css/Main.css';
 import image from './images/category.png'
 import Card from './Card';
 import CardData from './CardData';
