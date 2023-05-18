@@ -133,13 +133,13 @@ body{
 .twitter{
   position:relative;
   left:1030px;
-  bottom:28px
+  top:9px;
 }
 
 .discord{
-  position:relative;
-  bottom:20px;
-  left:1035px;
+  position: relative;
+  top: 12px;
+  left: 1030px
 }
 
 .rectangle p {
@@ -260,11 +260,13 @@ hr {
 .contact{
   position: absolute;
   top: 2400px;
+  right:53%;
 }
 
 #sc{
   position: absolute;
-  top: 2520px;
+  top: 2545px;
+  left: -8%;
 }
 #squirrelnft{font-size: 24px;
   color: white;
@@ -277,7 +279,7 @@ hr {
 #text{font-size: 18px; color: white; position: relative; left: 30px;top:30px}
 
 #horizontal-line1 {
-  border-left: 750px solid white; /* width, style, and color of the border */
+  border-left: 660px solid white; /* width, style, and color of the border */
   border-radius: 10%;
   height: 4px; /* height of the line */
   position: relative;
@@ -334,7 +336,8 @@ footer p{
 
     #sc{
       position: absolute;
-      top: 1475px;
+      top: 1510px;
+      left: 4%;
     }
 
     .instagram{

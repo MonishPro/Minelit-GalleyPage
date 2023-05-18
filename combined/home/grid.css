@@ -47,6 +47,14 @@ body{
     height:95%;
 }
 
+.marchtoopensea{
+    font-size: 205.75%;
+    position: relative;
+    bottom: 66%;
+    left: 4%;
+    font-weight: 500;
+}
+
 .box2{
     /* border: 2px solid; */
     position: relative;
@@ -136,6 +144,27 @@ input[type="button"]{
     top: 220px;
 }
 
+.whitebox{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 15%;
+    position: relative;
+    bottom: 90%;
+    left: 5%;
+}
+
+.whitebox p{
+    font-weight: 700;
+    font-size: 120%;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+}
+
 #squirrelnft{
     align-items: start;
     font-size: 27px;
@@ -163,26 +192,50 @@ input[type="button"]{
     font-size: 131.25%;
 }
 
+.shortseashellimage{
+    width: 5%;
+    height: 73px;
+    position: relative;
+    bottom: 294px;
+    border: 4px solid;
+    border-radius: 9%;
+    left: 70%;
+}
+
+a{
+    text-decoration: none;
+}
+
 /* .mail{
     width: 35px;
 } */
 
+.contact{
+    border-radius: 8px;
+    height: 6px;
+    width: 98%;
+    background-color: #3c3b3d;
+    position: relative;
+    bottom:40px;
+    /* right: 335px; */
+  }
+
 
 .instagram{
     position: relative;
-    left: 235px;
+    left: 185px;
     bottom: 44px;
 } 
 
  .twitter{
     position: relative;
-    left: 270px;
+    left: 200px;
     bottom: 34px;
 }
 
 .discord{
     position: relative;
-    left: 300px;
+    left: 200px;
     bottom: 26px;
 }
 
@@ -204,11 +257,49 @@ input[type="button"]{
         height: 20px;
     } */
 
+    .marchtoopensea{
+        font-size: 100%;
+        position: relative;
+        bottom: 66%;
+        left: 5%;
+    }
+
+    .shortseashellimage{
+        width: 28px;
+        height: 37px;
+        border: 2px solid;
+        border-radius: 7%;
+        position: relative;
+        bottom: 249px;
+        left: 57%;
+    }
+
+    .whitebox{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 2px;
+    width: 82px;
+    height: 6%;
+    position: relative;
+    bottom: 80%;
+    left: 10%;
+    }
+
+    .whitebox p{
+    font-weight: 700;
+    font-size: 49%;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+    }
+
     .instagram{
         width: 35px;
         height: 35px;
         position: relative;
-        left: -86px;
+        left: -96px;
         top: -75px;
     }
 
@@ -248,14 +339,7 @@ input[type="button"]{
 
 
 
-.contact{
-    border-radius: 8px;
-    height: 6px;
-    width: 98%;
-    background-color: #3c3b3d;
-    position: relative;
-    bottom:40px
-  }
+
 
 .container0 {
     border-radius: 8px;
@@ -382,6 +466,8 @@ input[type="button"]{
     .door100img{
         width: 106%;
         height: 100px;
+        position: relative;
+        left: -1%;
     }
 
     .container3{
