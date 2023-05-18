@@ -7,13 +7,12 @@ body{
     background-color: #090909;
 }
 .contain{
-    /* border: 2px solid; */
     position: relative;
     right: 20px;
-    top:50px;
+    top:40px;
     height:auto;
     width:101.5%;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: bolder;
 }
 
@@ -24,8 +23,8 @@ body{
 
 .knock{
     position:relative;
-    bottom :250px;
-    left:40px;
+    bottom: 269px;
+    left: 51px;
 }
 
 .push{
@@ -35,22 +34,24 @@ body{
 
 .abe{
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: bolder;
     position: relative;
-    bottom: 130px;
+    bottom: 86px;
 }
 
 .abb{
-    font-size: 25px;
+    font-size: 23px;
     text-align:center;
     position: relative;
-    bottom: 150px;
+    bottom: 68px;
 }
 
 
 .dooriimg{
     text-align: center;
+    position: relative;
+    top: 100px;
   }
 
   .img1 {
@@ -94,6 +95,71 @@ body{
     top:150px
 }
 
+
+
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 60px;
+    background-color: #643197;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+   
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  img{
+   position: relative;
+    left: 5px;
+  right: 92.29%;
+  top: 5px;
+  bottom: 97.13%;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+   
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+   
+  }
+  
+  .fab {
+    font-size: inherit;
+  }
+
+
 @media screen and (min-width:2300px){
     .contain{
         text-align: center;
@@ -119,24 +185,25 @@ body{
 
 @media screen and (max-width:500px){
     .contain{
-        font-size: 168.25%;
+        font-size: 209.25%;
         position: relative;
-        left: 0px;
+        left: -19px;
     }
 
     .images{
-        width: 104%;
+        width: 106%;
     }
 
     .dooriimg{
         position: relative;
-        right: 3%;
+        right: 1%;
+        top: -7px;
     }
 
     .contain .knock{
         position: relative;
-        bottom:160px;
-        right: 20px;
+        bottom: 193px;
+        left: 30px;
     }
 
     .abe{
@@ -166,6 +233,12 @@ body{
       width: 106%;
       top: 0px;
       left: 0px;
+      }
+
+      .nav-links li {
+        margin: 0 10px;
+        position: relative;
+        right: 8%;
       }
 
     .social-icons{
@@ -206,62 +279,6 @@ body{
 }
 
 
-nav {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
-    background-color: #643197;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-  }
-
-  .logo{
-   position: absolute;
-   height: 50px;
-   left: 5px;
-   top: 5px;
-   bottom: 97.13%;
-  }
-  
-  .nav-links {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 12px;
-  }
-  
-   .nav-links li {
-    margin: 5px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-  }
-  
-  .social-icons a {
-    margin: 0 10px;
-    color: #fff;
-    font-size: 20px;
-  }
-  
-  .fab {
-    font-size: inherit;
-  }
   
   /* .door_img{
     display: flex;

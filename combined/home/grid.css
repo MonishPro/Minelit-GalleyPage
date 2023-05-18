@@ -14,10 +14,14 @@ body{
     height: 320px;
     padding-top: 50px;
     position: relative;
-    bottom: 100px;
+    bottom: -150px;
     right: 7px;
 }
 
+.chapters{
+    position: relative;
+    top:500px;
+}
 
 .megacontainer{
     position: relative;
@@ -50,7 +54,7 @@ body{
 .marchtoopensea{
     font-size: 205.75%;
     position: relative;
-    bottom: 66%;
+    bottom: 65%;
     left: 4%;
     font-weight: 500;
 }
@@ -77,29 +81,30 @@ body{
 }
 
 .content{
-    font-size: 27px;
+    font-size: 143.75%;
     font-weight: 300;
     text-align: center;
     position: relative;
-    top: 100px;    
+    top: 200px;    
 }
 
 .buttonrow{
     text-align: center;
     position: relative;
     /* left: 525px; */
-    top: 125px;
+    top: 275px;
 }
 
 input[type="button"]{
     text-align: center;
-    width: 40%; 
-    height: 78px;
+    height: 58px;
     font-weight: 600;
     font-size: 23px;
+    width: 300px;
     background: white;
-    border-radius: 5%;
+    border-radius: 5px;
     color: #090909;
+    border: none;
 }
 
 
@@ -121,12 +126,13 @@ input[type="button"]{
 .megacontainer2{
     /* text-align: center; */
     position: relative;
-    top:20px;
+    top:300px;
+    left:20px
 }
 .whiteline{
     border-radius: 8px;
     height: 5px;
-    width: 55%;
+    width: 60%;
     text-align: end;
     /* padding-left: 250px; */
     background-color: white;
@@ -151,7 +157,7 @@ input[type="button"]{
     width: 250px;
     height: 15%;
     position: relative;
-    bottom: 90%;
+    bottom: 60%;
     left: 5%;
 }
 
@@ -224,19 +230,19 @@ a{
 .instagram{
     position: relative;
     left: 185px;
-    bottom: 44px;
+    top:-45px;
 } 
 
  .twitter{
     position: relative;
     left: 200px;
-    bottom: 34px;
+    top: -34px;
 }
 
 .discord{
     position: relative;
     left: 200px;
-    bottom: 26px;
+    top: -26px;
 }
 
 @media screen and (max-width:500px){
@@ -257,10 +263,17 @@ a{
         height: 20px;
     } */
 
+    .megacontainer2{
+        height:0px;
+        position: relative;
+        left: 0px;
+        top:100px;
+    }
+
     .marchtoopensea{
         font-size: 100%;
         position: relative;
-        bottom: 66%;
+        bottom: 63%;
         left: 5%;
     }
 
@@ -274,6 +287,10 @@ a{
         left: 57%;
     }
 
+    input[type="button"]{
+        width: 350px;
+    }
+
     .whitebox{
     background-color: white;
     border: 1px solid;
@@ -281,7 +298,7 @@ a{
     width: 82px;
     height: 6%;
     position: relative;
-    bottom: 80%;
+    bottom: 60%;
     left: 10%;
     }
 
@@ -293,6 +310,11 @@ a{
     position: relative;
     top: 10%;
     transform: translateY(-50%);
+    }
+
+    .chapters{
+        position: relative;
+        top: 150px;
     }
 
     .instagram{
@@ -307,7 +329,7 @@ a{
         width: 46px;
         height: 50px;
         position: relative;
-        left: -41px;
+        left: -60px;
         top: -124px;
     }
 
@@ -315,7 +337,7 @@ a{
         width: 52px;
         height: 60px;
         position: relative;
-        left: 4px;
+        left: -20px;
         top: -181px;
     }
 
@@ -355,8 +377,8 @@ a{
   .door100{
     height:280px;
     position: absolute;
-    right:25px;
-    bottom:100px
+    left: 76%;
+    top: -5px;
   }
 
   .door100img{
@@ -370,12 +392,12 @@ a{
     grid-column-start: 1;
     grid-column-end: 6;
     justify-self: center;
-    height: 100px;
+    height: 80px;
     width: 101.5%;
     font-size: 15px;
     background-color: #643197;
     position: relative;
-    top: 274px;
+    top: 600px;
     right: 8px;
   }
 
@@ -389,7 +411,7 @@ a{
     text-align: right;
     position: relative;
     right:60px;
-    bottom: 30px;
+    bottom: 40px
   }
 
 
@@ -408,6 +430,10 @@ a{
     }
 
     .gridimg3{
+        display: none;
+    }
+
+    .arrow{
         display: none;
     }
     
@@ -430,8 +456,10 @@ a{
         font-size: 106.25%;
         align-self: center;
         height: 37px;
+        width: 200px;
         position: relative;
         right: 5%;
+        top:-100px;
     }
     .megacontainer{
         position: relative;
@@ -459,8 +487,8 @@ a{
     .door100{
         height: 100px;
         position: relative;
-        right: -64.9%;
-        bottom: 107px;
+        left: 68.9%;
+        top: -102px;
     }
 
     .door100img{
@@ -491,10 +519,6 @@ a{
         margin:auto;
         width: 100%;
         
-    }
-
-    input[type="button"]{
-        width: 200px;
     }
 
     
