@@ -1,5 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
+import {NavLink} from 'react-router-dom';
+
 import './css/Chapters.css';
+import Footer from './Footer';
 import chapter1 from './images/chapter1.png';
 import chapter3 from './images/chapter3.png';
 import mint from './images/mint.png';
@@ -58,7 +61,7 @@ const Chapters = () => {
                     </div>
                 </div>
                 <div className="content1">
-                    <h2 className="heading" data-aos="fade-left" >Chapters? Seems Interesting!</h2>
+                    <h2 className="heading-chapter" data-aos="fade-left" >Chapters? Seems Interesting!</h2>
                     <p data-aos="fade-right" >
                         The Door Verse NFT collection is divided into chapters to allow for a deeper exploration of the universe. Each chapter in the Door Verse NFT collection has its own unique collection and story. It is being released in stages, with different launch dates for each chapter. It is a stunning example of digital art and storytelling, each with its own unique collection.
                     </p>
@@ -77,10 +80,11 @@ const Chapters = () => {
                         <div className="mint_heading" data-aos="fade-in">
                             <div>Ancient</div>
                             <div className="total">Total Doors - 50</div></div>
-                        <a className="mint_button" data-aos="zoom-in">Know The Story<i class="fa-solid fa-arrow-right"></i></a>
+                            <NavLink className='mint_button' data-aos="zoom-in" to='/ancient'>Know The Story<i class="fa-solid fa-arrow-right"></i></NavLink>
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

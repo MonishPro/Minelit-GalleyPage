@@ -5,13 +5,13 @@
   display: flex;
   flex-direction: row;
 }
-.left {
+.main-left {
   width: 20%;
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
-.right {
+.main-right {
     height: auto;
     padding-left: 5%;
     border-left: 4px solid #fdfdfd33;
@@ -87,7 +87,7 @@ input[type="checkbox"] {
   }
 }
 @media screen and (max-width:768px){
-  .left{
+  .main-left{
     width: 20%;
   }
   .category{
@@ -106,10 +106,10 @@ input[type="checkbox"] {
   }
 }
 @media screen and (max-width:426px){
-  .left{
+  .main-left{
     display: none;
   }
-  .right{
+  .main-right{
     width: 100%;
     border-left: 0px;
     margin-top: 10%;

@@ -9,7 +9,7 @@ import DoorData from './DoorData';
 const Ancient = () => {
     return (
         <>
-            <div className="container-fluid ancient_container">
+            <div className="container-fluid ancient_container" id="top">
                 <img className="ancient_img" src={ancient_img} alt="image" />
             </div>
             <div className="article container">
@@ -33,7 +33,7 @@ const Ancient = () => {
             </div>
             <div className="ancient-card">
                 <p className="card-door">Ancient Doors</p>
-                <div className="right container">
+                <div className="article-right container">
                     <div class="container-fluid">
                         <div class="row g-3">
                             {DoorData.map((val) => {

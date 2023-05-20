@@ -1,17 +1,18 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 import './css/Nav.css';
 import logo from './images/DoorVerse.png';
 const Nav = () => {
     return (
         <>
             <div className='nav'>
-                <div className='logo'>
-                    <img src={logo} className='logoImg'></img>
+                <div className='navlogo'>
+                    <a href='/' className='logo-link'><img src={logo} className='logoImg'></img></a>
                 </div>
                 <div className='middle'>
-                    <ul className='nav-ul'><li className='nav-li'><a className='nav-link'>About</a></li></ul>
-                    <ul className='nav-ul'><li className='nav-li'><a className='nav-link'>Chapter</a></li></ul>
-                    <ul className='nav-ul'><li className='nav-li'><a className='nav-link'>Gallery</a></li></ul>
+                    <ul className='nav-ul'><li className='nav-li'><NavLink className='nav-link' to='/about'>About</NavLink></li></ul>
+                    <ul className='nav-ul'><li className='nav-li'><NavLink className='nav-link' to='/chapters'>Chapter</NavLink></li></ul>
+                    <ul className='nav-ul'><li className='nav-li'><NavLink className='nav-link' to='/gallery'>Gallery</NavLink></li></ul>
                     <ul className='nav-ul'><li className='nav-li'><a className='nav-link active' >Buy NFT</a></li></ul>
                 </div>
                 <div className='social-nav'>

@@ -1,6 +1,3 @@
-*{
-    color: #fff;
-}
 .ancient_container{
     height: 500px;
     width: 100%;
@@ -68,7 +65,7 @@
     width: 100%;
     margin-top: 7%;
 }
-.right{
+.article-right{
     margin-top: 2%;
     border-left: 0px !important;
 }

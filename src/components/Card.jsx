@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 
 const Card = (props) => {
+
     useEffect(() => {
 
         document.addEventListener('contextmenu', handleRightClick);
@@ -8,7 +9,6 @@ const Card = (props) => {
             document.removeEventListener('contextmenu', handleRightClick);
         }
     }, [])
-
     const handleRightClick = (e) => {
         e.preventDefault();
     }

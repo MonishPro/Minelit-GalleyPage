@@ -9,7 +9,7 @@ const Main = () => {
         <>
             <div class="container-fluid whole">
                 <div class="twocontainer">
-                    <div className="left container">
+                    <div className="main-left main-container">
                         <div className="category">
                             <img className="category-icon" src={image} />
                             <p className="category-title">Category</p>
@@ -34,7 +34,7 @@ const Main = () => {
                             <input type="checkbox" id="checkbox" value="" />
                         </div>
                     </div>
-                    <div className="right container">
+                    <div className="main-right main-container">
                         <div class="container-fluid">
                             <div class="row g-3">
                                 {CardData.map((val) => {
