@@ -1,6 +1,5 @@
 import React from "react";
 import './css/About.css';
-import Footer from "./Footer";
 
 import img1 from "./images/card5.png"
 import img2 from "./images/Rectangle2.png"

@@ -5,7 +5,7 @@ import logo from './images/DoorVerse.png';
 const Nav = () => {
     return (
         <>
-            <div className='nav'>
+            <div className='nav container-fluid'>
                 <div className='navlogo'>
                     <a href='/' className='logo-link'><img src={logo} className='logoImg'></img></a>
                 </div>
