@@ -45,7 +45,7 @@ const Homepage = () => {
                 <h3 className="chapters-title">Chapters</h3>
                 <div className="display-home-chapter">
                     <img src={img7} className="chapter-images-home" alt="chapters" />
-                    <img src={img8} className="chapter-image-middle" alt="chapters" />
+                    <img src={img8} className="chapter-images-home" alt="chapters" />
                     <img src={img9} className="chapter-images-home" alt="chapters" />
                 </div>
                 <p className="chapter-home-desc" >As you explore DoorVerse, remember that behind every door lies a story waiting to be discovered. Therefore, we divided the entire NFT collection into various chapters. Each chapter has a distinct NFT door collection of its own.</p>

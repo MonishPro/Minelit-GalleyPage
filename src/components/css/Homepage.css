@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   height: fit-content;
-  width: 30%;
+  width: 60%;
   margin-left: 3%;
 }
 .knock{
@@ -46,13 +46,11 @@
 }
 .tilt-images{
   width: 100%;
-  overflow-x: hidden;
   height: fit-content;
   display: flex;
   justify-content: center;
 }
 .image-style{
-  overflow-x: hidden;
   width: 272px;
   height: 310px;
   border: 5px solid #fff;
@@ -80,6 +78,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  margin:0;
   justify-content: space-between;
   background-color: #5c3686;
 }
@@ -101,14 +100,16 @@
   text-align: center;
   border-radius: 6px;
   color: #000;
-  width: 40%;
+  width: 50%;
   background-color: #fff;
   text-decoration: none;
 }
 .door-img-right{
   width: 450px;
   height: 450px;
-  margin-top: -6.6%;
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
 }
 .door6{
   width: 100%;
@@ -139,10 +140,6 @@
   width: 290px;
   height: 290px;
 }
-.chapter-image-middle{
-  width: 330px;
-  height: 330px;
-}
 .chapter-home-desc{
   color: #fff;
   font-size: 25px;
@@ -152,13 +149,13 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 4% 7% 0 7%;
+  padding: 4% 6% 0 6%;
 }
 .explore-btn{
   background-color: #fff;
   color: #000;
   font-size: 22px;
-  width: 25%;
+  width: 28%;
   border-radius: 6px;
   text-decoration: none;
   padding: 5px;
@@ -168,4 +165,256 @@
 }
 .fa-arrow-right{
   font-size: 20px;
+}
+
+@media screen and (max-width:1270px){
+  .tilt-images-two{
+    margin-top: -15%;
+  }
+}
+@media screen and (max-width:1024px){
+  .nft-open-text{
+    width: 50%;
+    height: 70%;
+  }
+  .nft-btn{
+    width: 60%;
+  }
+  .btn-chapter{
+    width: 100%;
+  }
+  .explore-btn{
+    width: 35%;
+  }
+  .chapter-homepage{
+    padding: 0 4% 0 4%;
+  }
+  .chapter-images-home{
+    width: 240px;
+    height: 240px;
+  }
+  .door-img-right{
+    width: 400px;
+    height: 400px;
+  }
+  .image-style{
+    width: 260px;
+    height: 290px;
+  }
+}
+@media screen and (max-width:768px){
+  .knock{
+    font-size: 60px;
+  }
+  .there{
+    font-size: 40px;
+  }
+  .herosection{
+    height: 270px;
+  }
+  .nftcollection{
+    margin-top: 20%;
+  }
+  .herowelcome{
+    font-size: 22px;
+  }
+  .chapter-homepage{
+    padding: 0;
+  }
+  .chapter-images-home{
+    width: 200px;
+    height: 200px;
+  }
+  .chapter-home-desc{
+    font-size: 22px;
+  }
+  .fa-arrow-right{
+    font-size: 0;
+  }
+  .nft-text{
+    font-size: 35px;
+  }
+  .nft-btn{
+    width: 70%;
+    font-size: 20px;
+  }
+  .explore-btn{
+    width: 34%;
+  }
+}
+@media screen and (max-width:630px){
+  .image-style{
+    width: 210px;
+    height: 250px;
+  }
+  .display-home-chapter{
+    padding: 0 2% 0 2% ;
+  }
+  .chapter-images-home{
+    width: 190px;
+    height: 190px;
+  }
+  .explore-btn{
+    font-size: 18px;
+  }
+  .fa-arrow-right{
+    font-size: 0;
+  }
+  .door-img-right{
+    width: 350px;
+    height: 350px;
+  }
+  .nftcollection{
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:570px){
+  .herosection{
+    height: 230px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .knock{
+    font-size: 50px;
+  }
+  .there{
+    font-size: 35px;
+  }
+  .nftcollection{
+    height: 250px;
+  }
+  .door-img-right{
+    width: 300px;
+    height: 300px;
+  }
+  .nft-text{
+    font-size: 30px;
+  }
+  .nft-btn{
+    width: 60%;
+    font-size: 16px;
+  }
+  .explore-btn{
+    font-size: 16px;
+  }
+  .chapter-images-home{
+    width: 150px;
+    height: 150px;
+  }
+  .chapter-home-desc{
+    font-size: 18px;
+  }
+  .image-style{
+    width: 180px;
+    height: 200px;
+  }
+  .herowelcome{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:425px){
+  .knock{
+    font-size: 40px;
+  }
+  .there{
+    font-size: 30px;
+  }
+  .nftcollection{
+    height: 210px;
+    margin-top: 30%;
+  }
+  .door-img-right{
+    width: 250px;
+    height: 250px;
+  }
+  .nft-text{
+    font-size: 25px;
+  }
+  .nft-btn{
+    width: 50%;
+    font-size: 16px;
+  }
+  .chapters-title{
+    font-size: 22px;
+  }
+  .explore-btn{
+    font-size: 16px;
+  }
+  .chapter-images-home{
+    width: 100px;
+    height: 100px;
+  }
+  .chapter-home-desc{
+    font-size: 18px;
+  }
+  .tilt-images{
+    margin-top: 10%;
+  }
+  .image-style{
+    width: 150px;
+    height: 150px;
+  }
+  .herowelcome{
+    margin-top: 8%;
+  }
+}
+@media screen and (max-width:320px){
+  .knock{
+    font-size: 30px;
+    margin-top: -10px;
+  }
+  .there{
+    font-size: 23px;
+    margin-top: 0px;
+  }
+  .herosection{
+    height: 180px;
+    width: 100%;
+  }
+  .nftcollection{
+    height: 190px;
+    margin-top: 30%;
+  }
+  .door-img-right{
+    width: 200px;
+    height: 220px;
+  }
+  .nft-text{
+    font-size: 20px;
+  }
+  .nft-btn{
+    width: 100%;
+    font-size: 14px;
+    padding: 3px;
+  }
+  .chapters-title{
+    font-size: 22px;
+  }
+  .explore-btn{
+    font-size: 16px;
+    width: 70%;
+  }
+  .chapter-images-home{
+    width: 100px;
+    height: 100px;
+  }
+  .chapter-home-desc{
+    font-size: 18px;
+  }
+  .tilt-images{
+    margin-top: 18%;
+  }
+  .image-style{
+    width: 120px;
+    height: 140px;
+  }
+  .herowelcome{
+    margin-top: 20%;
+  }
+  .footer-logo-about{
+    width: 20%;
+    height: 100%;
+  }
 }

@@ -67,9 +67,9 @@
 }
 .footer-container{
   height: 90px;
-  /* width: 98.6vw; */
   width: 100%;
   margin-top: 4%;
+  margin-right: 0;
   background-color: #643197;
   display: flex;
   justify-content: center;
@@ -163,5 +163,21 @@
   }
   .email{
     width: 50%;
+  }
+}
+@media screen and (max-width:570px){
+  .footer-container{
+    width: 100%;
+  }
+  .hr{
+    width: 25%;
+  }
+}
+@media screen and (max-width:320px){
+  .email{
+    width: 55%;
+  }
+  .social{
+    width: 40%;
   }
 }
