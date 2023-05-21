@@ -164,6 +164,9 @@
   .email{
     width: 50%;
   }
+  .banner-wrap{
+    padding-left: 3%;
+  }
 }
 @media screen and (max-width:570px){
   .footer-container{
@@ -179,5 +182,8 @@
   }
   .social{
     width: 40%;
+  }
+  .banner-wrap{
+    padding-left: 5%;
   }
 }

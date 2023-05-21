@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Poppins&display=swap');
 .herosection{
   width: 100%;
   height: 350px;
@@ -364,10 +364,12 @@
   .knock{
     font-size: 30px;
     margin-top: -10px;
+    margin-left: 5%;
   }
   .there{
     font-size: 23px;
     margin-top: 0px;
+    margin-left: 5%;
   }
   .herosection{
     height: 180px;
@@ -378,16 +380,21 @@
     margin-top: 30%;
   }
   .door-img-right{
-    width: 200px;
+    width: 220px;
     height: 220px;
   }
   .nft-text{
+    margin-left: 5%;
     font-size: 20px;
   }
+  .nft-open-text{
+    width: 70%;
+  }
   .nft-btn{
-    width: 100%;
+    width: 70%;
     font-size: 14px;
-    padding: 3px;
+    padding: 2px;
+    margin-left: 5%;
   }
   .chapters-title{
     font-size: 22px;
@@ -406,9 +413,79 @@
   .tilt-images{
     margin-top: 18%;
   }
+  .tilt-images-two{
+    margin-top: -22%;
+  }
   .image-style{
     width: 120px;
-    height: 140px;
+    height: 150px;
+  }
+  .herowelcome{
+    margin-top: 20%;
+  }
+  .footer-logo-about{
+    width: 20%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width:375px){
+  .knock{
+    margin-left: 5%;
+  }
+  .there{
+    font-size: 23px;
+    margin-top: 0px;
+    margin-left: 5%;
+  }
+  .herosection{
+    height: 200px;
+    width: 100%;
+  }
+  .nftcollection{
+    height: 190px;
+    margin-top: 30%;
+  }
+  .door-img-right{
+    width: 220px;
+    height: 220px;
+  }
+  .nft-text{
+    margin-left: 5%;
+    font-size: 20px;
+  }
+  .nft-open-text{
+    width: 70%;
+  }
+  .nft-btn{
+    width: 70%;
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 5%;
+  }
+  .chapters-title{
+    font-size: 22px;
+  }
+  .explore-btn{
+    font-size: 16px;
+    width: 70%;
+  }
+  .chapter-images-home{
+    width: 100px;
+    height: 100px;
+  }
+  .chapter-home-desc{
+    font-size: 18px;
+  }
+  .tilt-images{
+    margin-top: 18%;
+  }
+  .tilt-images-two{
+    margin-top: -22%;
+  }
+  .image-style{
+    width: 125px;
+    height: 170px;
   }
   .herowelcome{
     margin-top: 20%;
