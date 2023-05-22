@@ -50,7 +50,7 @@ const Homepage = () => {
                 </div>
                 <p className="chapter-home-desc" >As you explore DoorVerse, remember that behind every door lies a story waiting to be discovered. Therefore, we divided the entire NFT collection into various chapters. Each chapter has a distinct NFT door collection of its own.</p>
                 <div className="btn-chapter">
-                <a className="explore-btn" href="#" >Explore All Chapters <i class="fa-solid fa-arrow-right"></i></a>
+                <a className="explore-btn" href="/chapters" >Explore All Chapters <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
             {/* Footer */}

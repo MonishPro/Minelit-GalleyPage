@@ -34,7 +34,7 @@ const Main = () => {
                             <input type="checkbox" id="checkbox" value="" />
                         </div>
                     </div>
-                    <div className="main-right main-container">
+                    <div className="main-right">
                         <div class="container-fluid">
                             <div class="row g-3">
                                 {CardData.map((val) => {

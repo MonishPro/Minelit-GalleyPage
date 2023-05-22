@@ -28,11 +28,11 @@ const Nav = () => {
             </div>
             <div className='hamburger-menu' style={{display:showNav?'flex':'none'}}>
                     <div className='hamburger-links'>
-                        <ul className='nav-ul ham-ul'><li className='nav-li ham-li'><NavLink className='nav-link ham-link' to='/'>Home</NavLink></li></ul>
-                        <ul className='nav-ul ham-ul'><li className='nav-li ham-li'><NavLink className='nav-link ham-link' to='/about'>About</NavLink></li></ul>
-                        <ul className='nav-ul ham-ul'><li className='nav-li ham-li'><NavLink className='nav-link ham-link' to='/chapters'>Chapter</NavLink></li></ul>
-                        <ul className='nav-ul ham-ul'><li className='nav-li ham-li'><NavLink className='nav-link ham-link' to='/gallery'>Gallery</NavLink></li></ul>
-                        <ul className='nav-ul ham-ul'><li className='nav-li ham-li'><a className='nav-link ham-link active' >Buy NFT</a></li></ul>
+                        <ul className='nav-ul ham-ul'><li className='nav-li ham-li' onClick={()=>{setNav(false)}}><NavLink className='nav-link ham-link' to='/'>Home</NavLink></li></ul>
+                        <ul className='nav-ul ham-ul'><li className='nav-li ham-li' onClick={()=>{setNav(false)}}><NavLink className='nav-link ham-link' to='/about'>About</NavLink></li></ul>
+                        <ul className='nav-ul ham-ul'><li className='nav-li ham-li' onClick={()=>{setNav(false)}}><NavLink className='nav-link ham-link' to='/chapters'>Chapter</NavLink></li></ul>
+                        <ul className='nav-ul ham-ul'><li className='nav-li ham-li' onClick={()=>{setNav(false)}}><NavLink className='nav-link ham-link' to='/gallery'>Gallery</NavLink></li></ul>
+                        <ul className='nav-ul ham-ul'><li className='nav-li ham-li' onClick={()=>{setNav(false)}}><a className='nav-link ham-link active' >Buy NFT</a></li></ul>
                     </div>
                     <div className='hamburger-social'>
                         <div className="social-link ham-social-link">

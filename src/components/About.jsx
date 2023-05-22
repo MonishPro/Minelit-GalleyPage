@@ -5,6 +5,7 @@ import img1 from "./images/card5.png"
 import img2 from "./images/Rectangle2.png"
 import img3 from "./images/Rectangle3.png"
 import logo from "./images/DoorVerse.png"
+import path from "./images/about-path.png"
 
 const About = () => {
     return (
@@ -34,7 +35,9 @@ const About = () => {
                         Each NFT is genuinely unique due to the colour, size, form, and style of the door. While some doors may open to hidden treasures or secret chambers, others may lead to breathtaking landscapes. NFTs based on doors are not just limited to their physical specifications, but also offer boundless opportunities for creativity. Imagine a world where doors can be portals to infinite possibilities, limited only by the imagination of their creators.
                     </p>
                 </div>
-                <div className="animation-path"></div>
+                <div className="animation-path">
+                    <img src={path} className="path_div" alt="Can't Load"/>
+                </div>
 
                 <div className="banner-wrap">
                     <div className="banner-content">

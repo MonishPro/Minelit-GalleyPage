@@ -19,6 +19,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />}></Route>
         <Route path="/chapters" element={<Chapters />}></Route>
         <Route path="/ancient" element={<Ancient/>}></Route>
+        <Route path="*" element={<Homepage/>}></Route>
       </Routes>
     </BrowserRouter>
   );
