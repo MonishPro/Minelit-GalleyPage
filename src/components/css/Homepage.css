@@ -42,7 +42,7 @@
 }
 .herowelcome-desc{
   margin-top: 3%;
-  text-align:justify;
+  text-align:center;
 }
 .tilt-images{
   width: 100%;
@@ -95,8 +95,9 @@
 .nft-btn{
   margin-top: 2%;
   font-size: 22px;
-  padding: 1%;
+  padding: 3%;
   text-align: center;
+  font-weight: 500;
   border-radius: 6px;
   color: #000;
   width: 50%;
@@ -153,11 +154,12 @@
 .explore-btn{
   background-color: #fff;
   color: #000;
-  font-size: 22px;
+  font-size: 21px;
+  font-weight: 500;
   width: 28%;
   border-radius: 6px;
   text-decoration: none;
-  padding: 5px;
+  padding: 9px;
 }
 .explore-btn:hover{
   color: #000;
@@ -188,7 +190,8 @@
     width: 100%;
   }
   .explore-btn{
-    width: 35%;
+    width: 34%;
+    padding: 8px;
   }
   .chapter-homepage{
     padding: 0 4% 0 4%;
@@ -209,6 +212,9 @@
 @media screen and (max-width:768px){
   .knock{
     font-size: 60px;
+  }
+  .door6{
+    display: none;
   }
   .there{
     font-size: 40px;
@@ -236,14 +242,14 @@
     font-size: 0;
   }
   .nft-text{
-    font-size: 35px;
+    font-size: 30px;
   }
   .nft-btn{
     width: 70%;
     font-size: 20px;
   }
   .explore-btn{
-    width: 34%;
+    width: 39%;
   }
 }
 @media screen and (max-width:630px){
@@ -334,10 +340,10 @@
     height: 250px;
   }
   .nft-text{
-    font-size: 25px;
+    font-size: 23px;
   }
   .nft-btn{
-    width: 50%;
+    width: 95%;
     font-size: 16px;
   }
   .chapters-title{
@@ -455,17 +461,22 @@
     height: 220px;
   }
   .nft-text{
-    margin-left: 5%;
+    margin-left: 11%;
+    margin-top: 39px;
+    width: 103%;
     font-size: 20px;
   }
   .nft-open-text{
     width: 70%;
   }
+  .door6{
+    display: none;
+  }
   .nft-btn{
-    width: 70%;
+    width: 84%;
     font-size: 14px;
-    padding: 2px;
-    margin-left: 5%;
+    padding: 9px;
+    margin-left: 11%;
   }
   .chapters-title{
     font-size: 22px;

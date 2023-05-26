@@ -12,10 +12,12 @@ const Nav = () => {
                     <a href='/' className='logo-link'><img src={logo} className='logoImg'></img></a>
                 </div>
                 <div className='middle'>
+
+                    <ul className='nav-ul'><li className='nav-li'><NavLink className='nav-link' to='/'>Home</NavLink></li></ul>
                     <ul className='nav-ul'><li className='nav-li'><NavLink className='nav-link' to='/about'>About</NavLink></li></ul>
                     <ul className='nav-ul'><li className='nav-li'><NavLink className='nav-link' to='/chapters'>Chapter</NavLink></li></ul>
                     <ul className='nav-ul'><li className='nav-li'><NavLink className='nav-link' to='/gallery'>Gallery</NavLink></li></ul>
-                    <ul className='nav-ul'><li className='nav-li'><a className='nav-link active' >Buy NFT</a></li></ul>
+                    <ul className='nav-ul'><li className='nav-li'><a className='nav-link' >Buy NFT</a></li></ul>
                 </div>
                 <div className='social-nav'>
                     <div className="social-link">

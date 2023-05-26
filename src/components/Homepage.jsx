@@ -22,8 +22,8 @@ const Homepage = () => {
             </div>
             <div className="container herowelcome" >
                 <h3 className="herowelcome-text">WELCOME TO THE</h3>
-                <h3 className="herowelcome-text">DOOR VERSE</h3>
-                <p className="herowelcome-desc">Welcome to DoorVerse, where art and doors converge in a captivating collection of NFTs. Step into a world where the ordinary becomes exceptional, as we explore the artistic dimensions of doors through digital masterpieces. The DoorVerse is a place where art and doors intertwine in a realm of boundless creativity.</p>
+                <h3 className="herowelcome-text">DOOR DUNES</h3>
+                <p className="herowelcome-desc">Welcome to Door Dunes, where art and doors converge in a captivating collection of NFTs. Step into a world where the ordinary becomes exceptional, as we explore the artistic dimensions of doors through digital masterpieces. The Door Dunes is a place where art and doors intertwine in a realm of boundless creativity.</p>
             </div>
             <div className="tilt-images" >
                 <img src={img2} className="image-style image1" alt="img" />
@@ -35,7 +35,7 @@ const Homepage = () => {
             <div className="nftcollection">
                 <div className="nft-open-text" >
                     <div className="nft-text">Open the Door <br></br>to the NFT Collection</div>
-                    <a className="nft-btn" href="#">March to OpenSea</a>
+                    <a className="nft-btn" href="https://opensea.io/">March to OpenSea</a>
                 </div>
                 <div className="door-img-right" >
                     <img src={img6} alt="door" className="door6" />
@@ -48,7 +48,7 @@ const Homepage = () => {
                     <img src={img8} className="chapter-images-home" alt="chapters" />
                     <img src={img9} className="chapter-images-home" alt="chapters" />
                 </div>
-                <p className="chapter-home-desc" >As you explore DoorVerse, remember that behind every door lies a story waiting to be discovered. Therefore, we divided the entire NFT collection into various chapters. Each chapter has a distinct NFT door collection of its own.</p>
+                <p className="chapter-home-desc" >As you explore Door Dunes, remember that behind every door lies a story waiting to be discovered. Therefore, we divided the entire NFT collection into various chapters. Each chapter has a distinct NFT door collection of its own.</p>
                 <div className="btn-chapter">
                 <a className="explore-btn" href="/chapters" >Explore All Chapters <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
@@ -58,8 +58,8 @@ const Homepage = () => {
                     <div className="banner-content">
                         <div className="footer-text1">
                             <div className="mail">
-                                <h4>Squirrel NFT</h4>
-                                <p className="email"><i class="fa-solid fa-envelope"></i>squirrel@sq.com</p>
+                                <h4>Door Dunes</h4>
+                                <p className="email"><i class="fa-solid fa-envelope"></i>nft@door dunes.com</p>
                             </div>
                         </div>
                         <div className="footer-text2">
@@ -78,7 +78,7 @@ const Homepage = () => {
                 <div class="footer-container">
                     <div className="footer-end">
                         <img src={logo} className="footer-logo-about" />
-                        <p className="copyright">2023 Squirrel. All Rights Reserved.</p>
+                        <p className="copyright">2023 Door Dunes. All Rights Reserved.</p>
                     </div>
 
                 </div>

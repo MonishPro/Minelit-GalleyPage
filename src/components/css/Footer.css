@@ -18,6 +18,7 @@
   color: #fff;
   padding-top: 6%;
   padding-bottom: 1%;
+  border-radius: 5px;
 }
 .footer-text2{
   color: #fff;
@@ -28,7 +29,7 @@
   font-size: 24px;
 }
 .email{
-  width: 15%;
+  width: 17%;
   font-size: 18px;
   display: flex;
   align-items: center;
@@ -66,14 +67,14 @@
 
 }
 .footer-container{
-  height: 90px;
+  height: 83px;
   width: 100%;
-  margin-top: 4%;
+  margin-top: 5%;
   margin-right: 0;
   background-color: #643197;
   display: flex;
   justify-content: center;
-  align-items:center ;
+  align-items: center;
 }
 .footer-end{
   width: 97%;
@@ -90,8 +91,8 @@
   letter-spacing: -0.011em;
 }
 .footer-logo{
-  width: 40px;
-  height: 40px;
+  width: 85px;
+  height: 85px;
   border-radius: 2px;
 }
 .brands-link{
@@ -106,7 +107,7 @@
     width:92%;
   }
   .email{
-    width: 20%;
+    width: 27%;
   }
   .footer-container{
     width: 100vw;
@@ -117,12 +118,12 @@
     width: 40%;
   }   
   .email{
-    width: 28%;
+    width: 42%;
   }
 }
 @media screen and (max-width:426px){
   .email{
-    width: 45%;
+    width: 42%;
     font-size: 16px;
   }
   .card-title{
@@ -152,7 +153,7 @@
 }
 @media screen and (max-width:376px){
   .copyright{
-    width: 42%;
+    width: 45%;
     padding-top: 5%;
   }
   .footer-end{
@@ -162,7 +163,7 @@
     width: 32%;
   }
   .email{
-    width: 50%;
+    width: 57%;
   }
   .banner-wrap{
     padding-left: 3%;
