@@ -11,20 +11,11 @@ import img3 from './images/card4.png';
 import chapter4 from './images/chapter4.png';
 import Coming from './images/Coming.png';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init({
-    offset: 300,
-    duration: 1000,
-    easing: 'ease-in-out',
-    once:true,
-});
-
 const Chapters = () => {
     return (
         <>
             <div className="container-fluid chapter">
-                <h3 data-aos="slide-down" > Chapters</h3>
+                <h3 > Chapters</h3>
                 <div className="timeline_col">
                     <div className="timeline_row">
                         <img src={chapter1} className="chapter_img"/>
@@ -63,30 +54,30 @@ const Chapters = () => {
                     </div> */}
                 </div>
                 <div className="content1">
-                    <h2 className="heading-chapter" data-aos="fade-left" >Chapters? Seems Interesting!</h2>
-                    <p data-aos="fade-right" >
-                        The Door Verse NFT collection is divided into chapters to allow for a deeper exploration of the universe. Each chapter in the Door Verse NFT collection has its own unique collection and story. It is being released in stages, with different launch dates for each chapter. It is a stunning example of digital art and storytelling, each with its own unique collection.
+                    <h2 className="heading-chapter" >Chapters? Seems Interesting!</h2>
+                    <p >
+                        The Door Dunes NFT collection is divided into chapters to allow for a deeper exploration of the universe. Each chapter in the Door Dunes NFT collection has its own unique collection and story. It is being released in stages, with different launch dates for each chapter. It is a stunning example of digital art and storytelling, each with its own unique collection.
                     </p>
                 </div>
                 {/* <div className="line"></div>
                 <div className="minting">
-                    <p className="minting_text" data-aos="zoom-in"><img className="mint_img" src={mint} alt="Image" />Minting Now</p>
+                    <p className="minting_text" <img className="mint_img" src={mint} alt="Image" />Minting Now</p>
                 </div>
                 <div className="minting_info">
                     <div className="mint_display">
-                        <img alt="image" className="mint_display_img" src={img1} data-aos="slide-right"/>
-                        <img alt="image" className="mint_display_img1" src={chapter1} data-aos="zoom-in" />
-                        <img alt="image" className="mint_display_img" src={img3} data-aos="slide-left"/>
+                        <img alt="image" className="mint_display_img" src={img1} >
+                        <img alt="image" className="mint_display_img1" src={chapter1} />
+                        <img alt="image" className="mint_display_img" src={img3} >
                     </div>
                     <div className="mint_display_text">
-                        <div className="mint_heading" data-aos="fade-in">
+                        <div className="mint_heading" 
                             <div>Ancient</div>
                             <div className="total">Total Doors - 50</div></div>
-                            <NavLink className='mint_button' data-aos="zoom-in" to='/ancient'>Know The Story<i class="fa-solid fa-arrow-right"></i></NavLink>
+                            <NavLink className='mint_button' to='/ancient'>Know The Story<i class="fa-solid fa-arrow-right"></i></NavLink>
                     </div>
                 </div> */}
             </div>
-            <Footer/>
+            <Footer mail = 'dvofficial@doorversenft.com'/>
         </>
     )
 }

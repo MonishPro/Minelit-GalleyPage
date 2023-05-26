@@ -2,7 +2,7 @@ import React from "react";
 import './css/Footer.css';
 import logo from './images/DoorVerse.png';
 
-const Footer = () => {
+const Footer = (props) => {
     return (
         <>
             <div className="banner-wrap">
@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="footer-text1">
                         <div className="mail">
                             <h4>Squirrel NFT</h4>
-                            <p className="email"><i class="fa-solid fa-envelope"></i>squirrel@sq.com</p>
+                            <div className="emaildiv"><i class="fa-solid fa-envelope"></i><p className="email">{props.mail}</p></div>
                         </div>
                     </div>
                     <div className="footer-text2">

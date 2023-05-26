@@ -17,10 +17,10 @@
 
 .chapter_imgg{
     position: relative;
-    width: 110px;
-    height: 70px;
+    width: 200px;
+    height: 115px;
     z-index: 10;
-    left: 12%;
+    left: 0%;
     margin-top: 8%;
     transform: rotate(-10.64deg);
 }
@@ -55,7 +55,7 @@
     position: absolute;
     background-color: #424141;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 8%;
 }
 .innerh{
     background-color: #BFB12C;
@@ -107,7 +107,7 @@
 
 .barv1{
     transform: rotate(0deg);
-    margin-left: 39%;
+    margin-left: 41%;
 }
 .barv2{
     transform: rotate(2deg);
@@ -228,46 +228,46 @@
 } */
 
 
+@media screen and (max-width: 1300px){
+    .barh{
+        margin-top: 8%;
+        width: 370px;
+    }
+    .barv{
+        height: 250px;
+    }
+}
 @media screen and (max-width: 1026px){
-     
-
     .chapter_imgg{
-        left: 5%;
-       
-       
+        left: 0%;
     }
 
     .timeline_col{
         margin-top: 3%;
-        width: 95%;
-       
+        width: 80%;
     }
     .timeline_row{
-       
-        width: 98%;
+        width: 100%;
         margin-bottom: 20%;
     }
 
     .barh{
-      
-        width: 550px;
-        height: 20px;
+        width: 500px;
+        height: 25px;
         margin-top: 10%;
         margin-left: 10%;
-       
     }
 
     .barv{
-        width: 20px;
-        height: 435px;
-      
+        width: 25px;
+        height: 370px;
         background-color: #424141;
         margin-top: 10%;
-        margin-left: 73%;
+        margin-left: 65%;
     }
-    .coming{
-        left: 60px;
-        top: 550px;
+    .chapter_imgg{
+        width: 180px;
+        height: 110px;
     }
 
     .minting{
@@ -290,69 +290,75 @@
     
 }
 
-@media  screen and (max-width: 600px){
-
-    .chapter_imgg{
-       
-        margin-left: 2%;
-    
+@media  screen and (max-width: 845px){
+    .barh{
+        width: 400px;
+        height: 25px;
+        margin-top: 12%;
     }
 
+    .barv{
+        width: 25px;
+        height: 300px;
+        margin-left: 62%;
+    }
+}
+@media  screen and (max-width: 700px){
+    .timeline_col{
+        margin-top: 3%;
+        width: 90%;
+    }
+    .barh{
+        width: 350px;
+        margin-top: 15%;
+    }
+
+    .barv{
+        margin-left: 70%;
+        height: 280px;
+        margin-top: 15%;
+    }
+    .chapter_imgg{
+        width: 160px;
+        height: 100px;
+        margin-top: 12%;
+    }
+
+}
+@media  screen and (max-width: 600px){
+
+
     .chapter{
-       
         padding: 5%;
-        
     }
     .timeline_col{
         margin-top: 3%;
         width: 95%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
     }
     .timeline_row{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 95%;
+        width: 100%;
         margin-bottom: 20%;
     }
     .chapter_img{
-        width: 100px;
-        height: 100px;
+        width: 160px;
+        height: 160px;
         z-index: 10;
     }
    
     .barh{
-        background-color: #424141;
-        width: 280px;
-        height: 20px;
-        margin-top: 10%;
-        margin-left: 5%;
-        position: absolute;
+        width: 350px;
+        margin-top: 15%;
     }
 
     .barv{
-        width: 20px;
-        height: 180px;
-        position: absolute;
-        background-color: #424141;
-        margin-top: 10%;
-        margin-left: 65%;
+        height: 260px;
+        margin-left: 70%;
     }
-
-    .coming{
-        position: absolute;
-    width: 30%;
-    height: 6%;
-    left: 40px;
-    top: 40%;
-    
-    font-size: 15.0791px;
-    line-height: 20px;
-   
+    .chapter_imgg{
+        margin-left: 4%;
+        width: 150px;
+        height: 90px;
     }
-
     .heading-chapter{
         font-size: 20px;
         /* text-align: center; */
@@ -387,4 +393,87 @@
     
     
 
+}
+
+@media  screen and (max-width: 425px){
+    .timeline_col,.timeline_row{
+        width: 100%;
+        margin-top: 12%;
+    }
+    .chapter_img{
+        width: 140px;
+        height: 140px;
+    }
+    .barh{
+        width: 250px;
+        margin-top: 16%;
+    }
+    .chapter_imgg{
+        width: 130px;
+        height: 80px;
+    }
+}
+@media  screen and (max-width: 500px){
+    .timeline_col,.timeline_row{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .chapter_img{
+        width: 150px;
+        height: 150px;
+    }
+    .barh{
+        width: 280px;
+        margin-top: 16%;
+    }
+    .chapter_imgg{
+        width: 130px;
+        height: 80px;
+    }
+}
+@media  screen and (max-width: 375px){
+    .timeline_col{
+        margin-top: 15%;
+    }
+    .chapter_img{
+        width: 130px;
+        height: 130px;
+    }
+    .barh{
+        width: 250px;
+        height: 22px;
+        margin-top: 17%;
+    }
+    .barv{
+        width: 22px;
+        height: 180px;
+    }
+    .chapter_imgg{
+        width: 110px;
+        height: 65px;
+        margin-top: 14%;
+    }
+}
+@media  screen and (max-width: 321px){
+    .timeline_col{
+        margin-top: 15%;
+    }
+    .chapter_img{
+        width: 120px;
+        height: 124px;
+    }
+    .barh{
+        width: 180px;
+        height: 22px;
+        margin-top: 19%;
+    }
+    .barv{
+        width: 22px;
+        height: 180px;
+    }
+    .chapter_imgg{
+        width: 100px;
+        height: 65px;
+        margin-top: 14%;
+    }
 }
