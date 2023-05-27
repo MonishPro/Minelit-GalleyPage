@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f2e80069.css",
+    "main.js": "/static/js/main.9921a745.js",
+    "static/media/Space.png": "/static/media/Space.a7ab1b67d44472651ef0.png",
+    "static/media/chapter3.png": "/static/media/chapter3.a7ab1b67d44472651ef0.png",
+    "static/media/ancient_image.png": "/static/media/ancient_image.dd16580f6ee4f04cb680.png",
+    "static/media/Ancient.png": "/static/media/Ancient.b8c0d615ec17ac4ef3e5.png",
+    "static/media/chapter1.png": "/static/media/chapter1.b8c0d615ec17ac4ef3e5.png",
+    "static/media/chapter4.png": "/static/media/chapter4.a83653e2ad0d66fd249f.png",
+    "static/media/seashellsdoor.png": "/static/media/seashellsdoor.cbefe60da02cd77ce252.png",
+    "static/media/chapter2.png": "/static/media/chapter2.79fe2605bc6d7d8d1612.png",
+    "static/media/image8.png": "/static/media/image8.39fd90f6b5129b2bed35.png",
+    "static/media/1440_398.png": "/static/media/1440_398.8588e2138c178fb1ef0b.png",
+    "static/media/D2.png": "/static/media/D2.f575fb4b6a0af3097a6e.png",
+    "static/media/DoorVerse.png": "/static/media/DoorVerse.f575fb4b6a0af3097a6e.png",
+    "static/media/banner.png": "/static/media/banner.ef78e13a18a4057d8747.png",
+    "static/media/door11.png": "/static/media/door11.e595f2838d5b6a67cb17.png",
+    "static/media/card3.png": "/static/media/card3.12aab820583835e3dc62.png",
+    "static/media/door3.png": "/static/media/door3.12aab820583835e3dc62.png",
+    "static/media/card2.png": "/static/media/card2.1bd5e3861eedba1df483.png",
+    "static/media/card6.png": "/static/media/card6.b37bd168cac40bd7c943.png",
+    "static/media/card1.png": "/static/media/card1.fa30660e9b1199a6fae8.png",
+    "static/media/door1.png": "/static/media/door1.207dfefb95ca264bdde6.png",
+    "static/media/card4.png": "/static/media/card4.6df46a2e1311d221ec36.png",
+    "static/media/door2.png": "/static/media/door2.362c370a81b4354f2792.png",
+    "static/media/card7.png": "/static/media/card7.362c370a81b4354f2792.png",
+    "static/media/card5.png": "/static/media/card5.207dfefb95ca264bdde6.png",
+    "static/media/Rectangle3.png": "/static/media/Rectangle3.48ebcaffd2a331dce266.png",
+    "static/media/Rectangle2.png": "/static/media/Rectangle2.51b8b33fffe4082fe654.png",
+    "static/media/about-path.png": "/static/media/about-path.2a0a30eac91f6fe35ebb.png",
+    "index.html": "/index.html",
+    "main.f2e80069.css.map": "/static/css/main.f2e80069.css.map",
+    "main.9921a745.js.map": "/static/js/main.9921a745.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2e80069.css",
+    "static/js/main.9921a745.js"
+  ]
+}
