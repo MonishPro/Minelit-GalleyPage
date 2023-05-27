@@ -9,8 +9,8 @@ const Footer = () => {
                 <div className="banner-content">
                     <div className="footer-text1">
                         <div className="mail">
-                            <h4>Door Dunes</h4>
-                            <p className="email"><i class="fa-solid fa-envelope"></i>nft@doordunes.com</p>
+                            <h4>Squirrel NFT</h4>
+                            <div className="emaildiv"><i class="fa-solid fa-envelope"></i><p className="email">nft@doordunes.com</p></div>
                         </div>
                     </div>
                     <div className="footer-text2">

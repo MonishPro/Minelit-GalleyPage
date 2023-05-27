@@ -1,42 +1,9 @@
 .banner-container {
   display: flex;
   justify-content: center;
-  width: 98vw;
   flex-direction: column;
 }
-.email-about {
-  width: 22%;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-@media screen and (max-width: 1024px) {
-  .email-about {
-    width: 32%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .email-about {
-    width: 42%;
-  }
-}
-@media screen and (max-width: 426px) {
-  .email-about {
-    width: 68%;
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 376px) {
-  .email-about {
-    width: 78%;
-  }
-}
-@media screen and (max-width: 320px) {
-  .email-about {
-    width: 92%;
-  }
-}
+
 .menu {
   display: none !important;
 }
@@ -136,12 +103,12 @@ input[type="text"] {
 }
 .wrap {
   float: right;
-  margin-right: 5%;
+  margin-right: 45px;
 }
 
 @media screen and (max-width: 1024px) {
   .search {
-    width: 80%;
+    width: 100%;
   }
   .wrap {
     margin-right: 0;
@@ -153,6 +120,10 @@ input[type="text"] {
 @media screen and (max-width: 768px) {
   .wrap {
     width: 60%;
+    margin-right: 0%;
+  }
+  .search-id{
+    width: 95%;
   }
 }
 @media screen and (max-width: 426px) {
@@ -172,11 +143,12 @@ input[type="text"] {
     margin-left: 0px;
   }
   .wrap {
-    width: 80%;
+    width: 90%;
+    margin-right: 0;
   }
   .search-id,
   .search {
-    width: 101%;
+    width: 100%;
   }
   .search-id {
     display: flex;
@@ -194,5 +166,10 @@ input[type="text"] {
   }
   a {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .banner-text {
+    width: 70%;
   }
 }

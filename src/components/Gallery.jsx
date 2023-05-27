@@ -1,46 +1,103 @@
-import React from "react";
-import Main from './Main';
-import GalleryTop from './GalleryTop';
-import logo from "./images/DoorVerse.png"
+import React, { useState } from "react";
 import Footer from "./Footer";
+import './css/Gallery.css';
+import './css/Main.css';
+
+import image from './images/category.png'
+import Card from './Card';
+import CardData from './CardData';
+
 
 const Gallery = () => {
+    var bool = "false";
+    var a = localStorage.getItem('name');
+    if (a === "1") {
+        bool = true;
+    }
+    else {
+        bool = false;
+    }
 
-   
+    const getFilteredItems = (query, items) => {
+        if (!query) {
+            return items;
+        }
+        return items.filter(data => data.title.toLowerCase().includes(query.toLowerCase()));
+    }
+
+    const [query, setQuery] = useState('');
+    const FilteredItems = getFilteredItems(query, CardData)
+
     return (
         <>
-            <GalleryTop />
-            <Main />
-            {/*
-            <div className="banner-wrap">
-                <div className="banner-content">
-                    <div className="footer-text1">
-                        <div className="mail">
-                            <h4>Squirrel NFT</h4>
-                            <p className="email-about"><i class="fa-solid fa-envelope"></i>dvofficial@doorversenft.com</p>
+            <div className='banner-container'>
+
+                <div className="banner ">
+                    <div className="banner-img">
+                        <div className="banner-text">
+                            <h2>Open The Door<br /> To The Collection</h2>
+                            <a href="https://opensea.io/" target="blank">March To OpenSea</a>
                         </div>
                     </div>
-                    <div className="footer-text2">
-                        <div className="footer2">
-                            <h5>Get More Updates Here</h5>
-                            <div className="hr"></div>
-                            <div className="social">
-                                <a href="#" target="blank" className="brands-link"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="#" target="blank" className="brands-link"><i class="fa-brands fa-twitter"></i></a>
-                                <a href="#" target="blank" className="brands-link"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <div className="search-id">
+                    <i class="menu fa-solid fa-bars"></i>
+                    <div class="wrap">
+                        <div class="search">
+                            <button type="submit" class="searchButton">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            <input type="text" onChange={e => setQuery(e.target.value)} class="searchTerm" placeholder="Search By ID" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="whole">
+                <div class="twocontainer">
+                    <div className="main-left main-container">
+                        <div className="category">
+                            <img className="category-icon" src={image} />
+                            <p className="category-title">Category</p>
+                        </div>
+                        <div className="category">
+                            <p className="attribute-title">Attributes</p>
+                        </div>
+                        <div className="example">
+                            <p className="example-title">Ancient</p>
+                            <input type="checkbox" id="ancient" defaultChecked={bool} />
+                        </div>
+                        {/* <div className="example">
+                            <p className="example-title">Space</p>
+                            <input type="checkbox" id="checkbox" value="" />
+                        </div>
+                        <div className="example">
+                            <p className="example-title">Example</p>
+                            <input type="checkbox" id="checkbox" value="" />
+                        </div>
+                        <div className="example">
+                            <p className="example-title">Example</p>
+                            <input type="checkbox" id="checkbox" value="" />
+                        </div> */}
+                    </div>
+                    <div className="main-right">
+                        <div class="container-fluid">
+                            <div class="row g-3">
+                                {FilteredItems.map((val) => {
+                                    return (
+                                        <Card
+                                            imgSrc={val.imgSrc}
+                                            title={val.title}
+                                            link={val.link}
+                                        />
+                                    );
+                                })}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-container">
-                <div className="footer-end">
-                    <img src={logo} className="footer-logo-about" />
-                    <p className="copyright">2023 Squirrel. All Rights Reserved.</p>
-                </div>
-
-            </div> */}
-            <Footer/>
+            <Footer />
         </>
     )
 }

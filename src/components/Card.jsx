@@ -25,7 +25,6 @@ const Card = (props) => {
                 <div class="card">
                     <div className="inner">
                         <a className='card-link' href='https://opensea.io/' target='blank'><img src={require(`./galleryimages/${props.imgSrc}.png`)} id='image' draggable="false" class="card-img-top" alt="Image" /></a>
-
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">{props.title}</h5>

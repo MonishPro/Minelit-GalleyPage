@@ -4,7 +4,6 @@ import './css/About.css';
 import img1 from "./images/card5.png"
 import img2 from "./images/Rectangle2.png"
 import img3 from "./images/Rectangle3.png"
-import logo from "./images/DoorVerse.png"
 import path from "./images/about-path.png"
 import Footer from "./Footer";
 
@@ -39,35 +38,6 @@ const About = () => {
                 <div className="animation-path">
                     <img src={path} className="path_div" alt="Can't Load"/>
                 </div>
-
-                {/* <div className="banner-wrap">
-                    <div className="banner-content">
-                        <div className="footer-text1">
-                            <div className="mail">
-                                <h4>Squirrel NFT</h4>
-                                <p className="email"><i class="fa-solid fa-envelope"></i>squirrel@sq.com</p>
-                            </div>
-                        </div>
-                        <div className="footer-text2">
-                            <div className="footer2">
-                                <h5>Get More Updates Here</h5>
-                                <div className="hr"></div>
-                                <div className="social">
-                                    <a href="#" target="blank" className="brands-link"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="#" target="blank" className="brands-link"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="#" target="blank" className="brands-link"><i class="fa-brands fa-discord"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-container">
-                    <div className="footer-end">
-                        <img src={logo} className="footer-logo-about" />
-                        <p className="copyright">2023 Squirrel. All Rights Reserved.</p>
-                    </div>
-
-                </div> */}
                 <Footer/>
             </div>
         </>

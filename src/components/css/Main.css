@@ -4,6 +4,7 @@
 .twocontainer {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 .main-left {
   height: 100vh;
@@ -12,9 +13,10 @@
   padding-right: 2%;
 }
 .main-right {
-    height: auto;
-    padding-left: 5%;
-    border-left: 4px solid #fdfdfd33;
+  height: auto;
+  padding-left: 5%;
+  width: 90vw;
+  border-left: 4px solid #fdfdfd33;
 }
 .category {
   width: 150px;
@@ -84,6 +86,9 @@ input[type="checkbox"] {
 @media screen and (max-width:1024px){
   .whole{
     padding: 0 3% 0 3%;
+  }
+  .main-right{
+    width: 80vw;
   }
 }
 @media screen and (max-width:768px){

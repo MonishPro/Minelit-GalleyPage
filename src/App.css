@@ -6,9 +6,10 @@ body{
   display: flex;
   justify-content: center;
   background-color: var(--dark);
+  overflow-x: hidden;
 }
 .container{
-  width: 80%;
+  width: 80%; 
   height: max-content;
   padding: 2%;
 }
@@ -43,7 +44,7 @@ body{
   padding: 2%;
   margin: 0;
   font-size: 20px;
-  width: 90%;
+  width: 100%;
 }
 .card-link{
   text-decoration: none;
@@ -66,6 +67,7 @@ body{
 
   .inner{
     display: flex;
+    width: 300px;
     justify-content: center;
   }
   .card-body{
@@ -78,5 +80,6 @@ body{
 @media screen and (max-width:337px){
   .inner{
     overflow: hidden;
+    width: 250px;
   }
 }
