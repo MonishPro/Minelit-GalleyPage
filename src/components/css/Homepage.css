@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Poppins&display=swap');
+
+.herosection{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: end;
+  background-image: url("../part1images/1440_398.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.herotext{
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 60%;
+  margin-left: 3%;
+}
+.knock{
+  margin-top: -20px;
+  font-family: "Bowlby One SC", cursive;
+  font-size: 80px;
+}
+.there{
+  margin-top: -10px;
+  font-family: "Bowlby One SC", cursive;
+  font-size: 55px;
+}
+.herowelcome{
+  width: 80%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  color: #fff;
+}
+.herowelcome-text{
+  font-weight: 600;
+}
+.herowelcome-desc{
+  margin-top: 3%;
+  text-align:center;
+}
+.tilt-images{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+.image-style{
+  width: 272px;
+  height: 310px;
+  border: 5px solid #fff;
+  border-radius: 8px;
+}
+.image2{
+  transform: rotate(-36deg);
+}
+.image3{
+  transform: rotate(28deg);
+}
+.tilt-images-two{
+  margin-top: -139px;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+}
+.nftcollection{
+  margin-top: 50%;
+  width: 100%;
+  height: 350px;
+  background-image: url("../part1images/image8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin:0;
+  justify-content: space-between;
+  background-color: #5c3686;
+}
+.nft-open-text{
+  width: 40%;
+  height: 60%;
+  margin-left: 3%;
+}
+.nft-text{
+  font-size: 42px;
+  color: #fff;
+  margin-left: 2%;
+  margin-top: 61px;
+  width: 131%;
+}
+.nft-btn{
+  margin-top: 2%;
+  font-size: 22px;
+  padding: 3%;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 6px;
+  color: #000;
+  width: 52%;
+  background-color: #fff;
+  text-decoration: none;
+}
+.door-img-right{
+  width: 450px;
+  height: 450px;
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
+}
+.door6{
+  width: 100%;
+  height: 100%;
+}
+.chapter-homepage{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  text-align: center;
+  margin-top: 5%;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 7% 0 7%;
+}
+.chapters-title{
+  font-size: 35px;
+  color: #fff;
+}
+.display-home-chapter{
+  display: flex;
+  margin-top: 8%;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.chapter-images-home{
+  width: 290px;
+  height: 290px;
+}
+.chapter-home-desc{
+  color: #fff;
+  font-size: 25px;
+  padding: 7% 7% 0 7%;
+}
+.btn-chapter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4% 6% 0 6%;
+}
+.explore-btn{
+  background-color: #fff;
+  color: #000;
+  font-size: 21px;
+  font-weight: 500;
+  width: 114%;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 9px;
+}
+.explore-btn:hover{
+  color: #000;
+}
+.fa-arrow-right{
+  font-size: 20px;
+}
+
+@media screen and (min-width:1440px){
+  .nftcollection{
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width:1441px){
+  .nftcollection{
+    margin-top: 20%;
+  }
+}
+@media screen and (max-width:1271px){
+  .tilt-images-two{
+    margin-top: -22%;
+  }
+}
+@media screen and (max-width:1025px){
+  .nft-open-text{
+    width: 50%;
+    height: 70%;
+  }
+  .nft-btn{
+    width: 60%;
+    margin-left: 13px;
+  }
+  .btn-chapter{
+    width: 100%;
+  }
+  .explore-btn{
+    width: 108%;
+    padding: 8px;
+  }
+  .chapter-homepage{
+    padding: 0 4% 0 4%;
+  }
+  .chapter-images-home{
+    width: 240px;
+    height: 240px;
+  }
+  .door-img-right{
+    width: 400px;
+    height: 400px;
+  }
+  .image-style{
+    width: 260px;
+    height: 290px;
+  }
+}
+@media screen and (max-width:768px){
+  .knock{
+    font-size: 60px;
+  }
+  .door6{
+    display: none;
+  }
+  .there{
+    font-size: 40px;
+  }
+  .herosection{
+    height: 270px;
+  }
+  .nftcollection{
+    margin-top: 20%;
+  }
+  .herowelcome{
+    font-size: 22px;
+  }
+  .chapter-homepage{
+    padding: 0;
+  }
+  .chapter-images-home{
+    width: 200px;
+    height: 200px;
+  }
+  .chapter-home-desc{
+    font-size: 22px;
+  }
+  .fa-arrow-right{
+    font-size: 0;
+  }
+  .nft-text{
+    font-size: 35px;
+    margin-top: 26%;
+    width: 139%;
+  }
+  .nft-btn{
+    width: 98%;
+    font-size: 23px;
+    padding: 5%;
+    margin-left: 8px;
+  }
+  .explore-btn{
+    width: 104%;
+  }
+}
+@media screen and (max-width:630px){
+  .image-style{
+    width: 210px;
+    height: 250px;
+  }
+  .display-home-chapter{
+    padding: 0 2% 0 2% ;
+  }
+  .chapter-images-home{
+    width: 190px;
+    height: 190px;
+  }
+  .explore-btn{
+    font-size: 18px;
+  }
+  .fa-arrow-right{
+    font-size: 0;
+  }
+  .door-img-right{
+    width: 350px;
+    height: 350px;
+  }
+  .nftcollection{
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:570px){
+  .herosection{
+    height: 230px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .knock{
+    font-size: 50px;
+  }
+  .there{
+    font-size: 35px;
+  }
+  .nftcollection{
+    height: 250px;
+  }
+  .door-img-right{
+    width: 300px;
+    height: 300px;
+  }
+  .nft-text{
+    font-size: 24px;
+  }
+  .nft-btn{
+    width: 104%;
+    font-size: 16px;
+  }
+  .explore-btn{
+    font-size: 16px;
+  }
+  .chapter-images-home{
+    width: 150px;
+    height: 150px;
+  }
+  .chapter-home-desc{
+    font-size: 18px;
+  }
+  .image-style{
+    width: 180px;
+    height: 200px;
+  }
+  .herowelcome{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:425px){
+  .knock{
+    font-size: 40px;
+  }
+  .there{
+    font-size: 30px;
+  }
+  .nftcollection{
+    height: 210px;
+    margin-top: 30%;
+  }
+  .door-img-right{
+    width: 250px;
+    height: 250px;
+  }
+  .nft-text{
+    font-size: 20px;
+  }
+  .nft-btn{
+    width: 113%;
+    font-size: 16px;
+    padding: 5%;
+    margin-left: 14px;
+  }
+  .chapters-title{
+    font-size: 22px;
+  }
+  .explore-btn{
+    font-size: 16px;
+  }
+  .chapter-images-home{
+    width: 100px;
+    height: 100px;
+  }
+  .chapter-home-desc{
+    font-size: 18px;
+  }
+  .tilt-images{
+    margin-top: 10%;
+  }
+  .image-style{
+    width: 148px;
+    height: 170px;
+  }
+  .herowelcome{
+    margin-top: 8%;
+  }
+}
+@media screen and (max-width:320px){
+  .knock{
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: 5%;
+  }
+  .there{
+    font-size: 23px;
+    margin-top: 0px;
+    margin-left: 5%;
+  }
+  .herosection{
+    height: 180px;
+    width: 100%;
+  }
+  .nftcollection{
+    height: 190px;
+    margin-top: 30%;
+  }
+  .door-img-right{
+    width: 220px;
+    height: 220px;
+  }
+  .nft-text{
+    margin-left: 5%;
+    font-size: 20px;
+  }
+  .nft-open-text{
+    width: 70%;
+  }
+  .nft-btn{
+    width: 70%;
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 5%;
+  }
+  .chapters-title{
+    font-size: 22px;
+  }
+  .explore-btn{
+    font-size: 16px;
+    width: 70%;
+  }
+  .chapter-images-home{
+    width: 100px;
+    height: 100px;
+  }
+  .chapter-home-desc{
+    font-size: 18px;
+  }
+  .tilt-images{
+    margin-top: 18%;
+  }
+  .tilt-images-two{
+    margin-top: -22%;
+  }
+  .image-style{
+    width: 120px;
+    height: 150px;
+  }
+  .herowelcome{
+    margin-top: 20%;
+  }
+  .footer-logo-about{
+    width: 20%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width:376px){
+  .knock{
+    margin-left: 5%;
+  }
+  .there{
+    font-size: 23px;
+    margin-top: 0px;
+    margin-left: 5%;
+  }
+  .herosection{
+    height: 200px;
+    width: 100%;
+  }
+  .nftcollection{
+    height: 190px;
+    margin-top: 30%;
+  }
+  .door-img-right{
+    width: 220px;
+    height: 220px;
+  }
+  .nft-text{
+    margin-left: 11%;
+    margin-top: 30px;
+    width: 103%;
+    font-size: 20px;
+  }
+  .nft-open-text{
+    width: 70%;
+  }
+  .door6{
+    display: none;
+  }
+  .nft-btn{
+    width: 95%;
+    font-size: 14px;
+    padding: 9px;
+    margin-left: 11%
+  }
+  .chapters-title{
+    font-size: 22px;
+  }
+  .explore-btn{
+    font-size: 16px;
+    width: 102%;
+  }
+  .chapter-images-home{
+    width: 100px;
+    height: 100px;
+  }
+  .chapter-home-desc{
+    font-size: 18px;
+  }
+  .tilt-images{
+    margin-top: 18%;
+  }
+  .tilt-images-two{
+    margin-top: -22%;
+  }
+  .image-style{
+    width: 148px;
+    height: 170px;
+  }
+  .herowelcome{
+    margin-top: 20%;
+  }
+  .footer-logo-about{
+    width: 20%;
+    height: 100%;
+  }
+}

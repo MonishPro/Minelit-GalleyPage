@@ -1,0 +1,125 @@
+.whole {
+  padding: 0 6% 0 6%;
+}
+.twocontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.main-left {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2%;
+}
+.main-right {
+  height: auto;
+  padding-left: 5%;
+  width: 90vw;
+  border-left: 4px solid #fdfdfd33;
+}
+.category {
+  width: 150px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 40px;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 20%;
+}
+.example {
+  width: 150px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 2%;
+}
+.category-title {
+  padding: 3%;
+  margin: 0;
+  font-size: 18px;
+  border-radius: 3px;
+  width: 70%;
+  text-align: center;
+  font-weight: 600;
+  background-color: #dedede;
+  font-weight: 500;
+}
+.example-title {
+  margin: 0;
+  font-size: 18px;
+  border-radius: 3px;
+  width: 70%;
+  text-align: left;
+  font-weight: 500;
+}
+.category-icon {
+  width: 25px;
+  height: 25px;
+}
+.attribute-title {
+  padding: 3%;
+  margin: 0;
+  font-size: 18px;
+  border-radius: 3px;
+  width: 70%;
+  text-align: center;
+  font-weight: 500;
+  font-weight: 500;
+}
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color:  #643197;
+  cursor: pointer;
+  color: #000;
+}
+.container-card{
+    width: 100%;
+}
+@media screen and (max-width:1024px){
+  .whole{
+    padding: 0 3% 0 3%;
+  }
+  .main-right{
+    width: 80vw;
+  }
+}
+@media screen and (max-width:768px){
+  .main-left{
+    width: 20%;
+  }
+  .category{
+    width: 130px;
+    height: 30px;
+  }
+  .category-title{
+    height: 30px;
+  }
+  .category-icon{
+    width: 20px;
+    height: 20px;
+  }
+  .whole{
+    padding: 0 3% 0 3%;
+  }
+}
+@media screen and (max-width:426px){
+  .main-left{
+    display: none;
+  }
+  .main-right{
+    width: 100%;
+    border-left: 0px;
+    margin-top: 10%;
+    padding-left: 0%;
+    display: flex;
+    justify-content: center;
+  }
+}

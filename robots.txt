@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /chapters
+Disallow: /gallery
