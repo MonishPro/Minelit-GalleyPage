@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "./Footer";
 import './css/Gallery.css';
 import './css/Main.css';
@@ -6,23 +6,22 @@ import './css/Main.css';
 import image from './images/category.png'
 import Card from './Card';
 import CardData from './CardData';
-import { type } from "@testing-library/user-event/dist/type";
-import { queries } from "@testing-library/react";
-
 
 const Gallery = () => {
-    var bool = "false";
-    var a = localStorage.getItem('name');
 
-    if (a === "1") {
-        bool = true;
+    const [query, setQuery] = useState('');
+    const [status1, setSatus1] = useState(false);
+    const [status2, setSatus2] = useState(false);
+    const handle = () => {
+        if (!status1 && !status2) {
+            setQuery('');
+        }
     }
-    else {
-        bool = false;
-    }
-
-   
-
+    useEffect(() => {
+        if (!status1 && !status2) {
+            setQuery('');
+        }
+    }, [query, setQuery]);
     var getFilteredItems = (query, CardData) => {
         if (!query) {
             return CardData;
@@ -30,9 +29,28 @@ const Gallery = () => {
         return CardData.filter(data => data.title.toLowerCase().includes(query.toLowerCase()));
     }
 
- 
-    var [query, setQuery] = useState('');
-    var FilteredItems = getFilteredItems(query, CardData)
+    const handleCheckbox1 = (event) => {
+        setSatus1(event.target.checked);
+
+        if (!status1 && !status2) {
+            setQuery('door');
+        }
+        else {
+            setQuery('');
+        }
+    }
+
+    const handleCheckbox2 = (event) => {
+        setSatus2(event.target.checked);
+        if (!status2 && !status1) {
+            setQuery('space');
+        }
+        else {
+            setQuery('');
+        }
+    }
+
+    var FilteredItems = getFilteredItems(query, CardData);
 
     return (
         <>
@@ -69,28 +87,14 @@ const Gallery = () => {
                         <div className="category">
                             <p className="attribute-title">Attributes</p>
                         </div>
-                        {/* <div className="example">
-                            <p className="example-title">All</p>
-                            <input type="checkbox" id="ancient" defaultChecked={gallery} onChange={e => setQuery("Space")} />
-                        </div> */}
                         <div className="example">
                             <p className="example-title">Ancient</p>
-                            <input type="checkbox" id="ancient" defaultChecked={bool}/>
-                            
+                            <input type="checkbox" id="ancient" onClick={handleCheckbox1} />
                         </div>
-                        {/* <div className="example">
+                        <div className="example">
                             <p className="example-title">Space</p>
-                            <input type="checkbox" id="checkbox" value="" onChange={e => setQuery("Space")}  />
-                        </div> */}
-                        {/*
-                        <div className="example">
-                            <p className="example-title">Example</p>
-                            <input type="checkbox" id="checkbox" value="" />
+                            <input type="checkbox" id="space" onClick={handleCheckbox2} />
                         </div>
-                        <div className="example">
-                            <p className="example-title">Example</p>
-                            <input type="checkbox" id="checkbox" value="" />
-                        </div> */}
                     </div>
                     <div className="main-right">
                         <div class="container-fluid">
